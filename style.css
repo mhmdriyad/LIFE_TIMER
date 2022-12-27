@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("mountain.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.setting {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.setting .fa-cog {
+  font-size: 3rem;
+  color: white;
+  display: flex;
+  gap: 1rem;
+}
+.setting-content input {
+  padding: 0.5rem, 1rem;
+  font-size: rem;
+}
+.setting-content button {
+  padding: 8px 16px;
+  background-color: green;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  color: white;
+}
+.setting-content button:hover {
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.time-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.time-container h2 {
+  font-size: 2rem;
+}
+.time-container div {
+  font-size: 4rem;
+  color: white;
+}
+.center h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
